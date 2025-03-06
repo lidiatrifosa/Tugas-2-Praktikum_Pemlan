@@ -12,18 +12,18 @@ package test;
 import test.BankAccount;
 public class Main {
       public static void main(String[] args) {
-        // Membuat instansiasi objek dengan constructor
-        BankAccount akun1 = new BankAccount("012344", "Gita", 100000);
-        BankAccount akun2 = new BankAccount("0123432", "Orel", 1526526);
+        // Membuat instansiasi objek dengan konstruktor
+        BankAccount akun1 = new BankAccount("78806350373", "Gita", 200000);
+        BankAccount akun2 = new BankAccount("033656677", "Orel", 152652);
 
     
-        // > Akun1
+        // > Panggil method utk Akun1
         akun1.displayInfo();
         akun1.deposit(1000);
         akun1.withdraw(20000);
         System.out.println(); 
 
-          // > Akun2
+          // > Panggil method utk Akun2
         akun2.displayInfo();
         akun2.deposit(1000);
         akun2.withdraw(20000);

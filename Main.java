@@ -7,7 +7,7 @@ package test;
 
 /**
  *
- * @author Hp
+ * @author Lidia Trifosa Simangunsong
  */
 import test.BankAccount;
 public class Main {
